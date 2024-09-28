@@ -9,38 +9,74 @@
     <title>PHOTO BOOK</title>
   </head>
   <body>
-    <header id="header">
-      <h1 class="site-title">
-        <a href="#">
-          <img src="/img/logo.svg" alt="logo" />
-        </a>
-      </h1>
-    </header>
-    <main>
-      <div id="mainvisual">
-        <img src="/img/mainvisual.jpg" alt="テキスト" />
-      </div>
-
-      <section class="index">
-        <div class="inner">
-          <h2 class="section-title-index">INDEX</h2>
-          <ol class="index-list">
-            <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
-            <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
-            <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
-            <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
-            <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
-          </ol>
+    <div class="container">
+      <header id="header">
+        <h1 class="site-title">
+          <a href="#">
+            <img src="/img/logo.svg" alt="logo" />
+          </a>
+        </h1>
+        <div id="mainvisual">
+          <img src="/img/mainvisual.jpg" alt="テキスト" />
         </div>
-      </section>
+      </header>
+      <main>
+        <section class="index">
+          <div class="inner">
+            <h2 class="section-title-index">INDEX</h2>
+            <ol class="index-list">
+              <li>
+                タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
+              </li>
+              <li>
+                タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
+              </li>
+              <li>
+                タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
+              </li>
+              <li>
+                タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
+              </li>
+              <li>
+                タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
+              </li>
+            </ol>
+          </div>
+        </section>
 
-      <section id="detail">
-        <h2 class="section-title-detail">DETAIL</h2>
-        <img src="/img/detail.jpg" alt="テキスト">
-        <div class="detail-text">
-            <p class="detail-title">タイトルタイトルタイトル</p>
+        <section id="detail">
+          <div class="d-inner">
+            <h2 class="section-title-detail">DETAIL</h2>
+            <div class="content">
+              <img src="/img/detail.jpg" alt="テキスト" />
+              <div class="detail-text">
+                <p class="detail-title">タイトルタイトルタイトル</p>
+                <dl>
+                  <dt>著者</dt>
+                  <dd>タイトルタイトルタイトル</dd>
+
+                  <dt>出版社</dt>
+                  <dd>タイトルタイトルタイトル</dd>
+
+                  <dt>発行年</dt>
+                  <dd>タイトルタイトルタイトル</dd>
+                </dl>
+                <p class="detail-text-p">
+                  テキストテキストテキストテキストテキストテキスト
+                  テキストテキストテキストテキストテキストテキスト
+                </p>
+                <a id="store" class="link" href="index.html">オンラインストアで見る</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="copylight">
+          <p id="fot" class="inner">© 2020 PHOTO BOOK</p>
         </div>
-      </section>
-    </main>
+      </footer>
+    </div>
   </body>
 </html>
